@@ -1,0 +1,22 @@
+{
+  "name": "bookshelf-api-hapi",
+  "version": "1.0.0",
+  "description": "this is a dicoding final project",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "lint" : "eslint ./",
+    "start-dev": "nodemon ./src/app.js"
+  },
+  "author": "Ananda Dana Pratama",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^3.3.6",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  }
+}
